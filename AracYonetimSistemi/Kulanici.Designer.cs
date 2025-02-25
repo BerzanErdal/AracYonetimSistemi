@@ -1,0 +1,286 @@
+﻿namespace AracYonetimSistemi
+{
+    partial class Kulanici
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kulanici));
+            this.comboBoxAracFiltreleme = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonGüncelle = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonEkle = new System.Windows.Forms.Button();
+            this.comboBoxAracTürü = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxYakit = new System.Windows.Forms.TextBox();
+            this.textBoxYil = new System.Windows.Forms.TextBox();
+            this.textBoxModel = new System.Windows.Forms.TextBox();
+            this.textBoxMarka = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // comboBoxAracFiltreleme
+            // 
+            this.comboBoxAracFiltreleme.FormattingEnabled = true;
+            this.comboBoxAracFiltreleme.Items.AddRange(new object[] {
+            "",
+            "Car",
+            "Truck",
+            "Boat",
+            "Airplane"});
+            this.comboBoxAracFiltreleme.Location = new System.Drawing.Point(123, 301);
+            this.comboBoxAracFiltreleme.Name = "comboBoxAracFiltreleme";
+            this.comboBoxAracFiltreleme.Size = new System.Drawing.Size(183, 24);
+            this.comboBoxAracFiltreleme.TabIndex = 25;
+            this.comboBoxAracFiltreleme.SelectedIndexChanged += new System.EventHandler(this.comboBoxAracFiltreleme_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label5.ForeColor = System.Drawing.Color.Blue;
+            this.label5.Location = new System.Drawing.Point(36, 309);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 16);
+            this.label5.TabIndex = 24;
+            this.label5.Text = "Arac Türü";
+            // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(35, 331);
+            this.treeView1.Name = "treeView1";
+            this.treeView1.Size = new System.Drawing.Size(833, 277);
+            this.treeView1.TabIndex = 23;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox1.Controls.Add(this.buttonGüncelle);
+            this.groupBox1.Controls.Add(this.panel1);
+            this.groupBox1.Controls.Add(this.buttonEkle);
+            this.groupBox1.Controls.Add(this.comboBoxAracTürü);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.textBoxYakit);
+            this.groupBox1.Controls.Add(this.textBoxYil);
+            this.groupBox1.Controls.Add(this.textBoxModel);
+            this.groupBox1.Controls.Add(this.textBoxMarka);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Location = new System.Drawing.Point(39, 9);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(802, 285);
+            this.groupBox1.TabIndex = 22;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "ARAÇ EKLEME VE GÜNCELLEME";
+            // 
+            // buttonGüncelle
+            // 
+            this.buttonGüncelle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonGüncelle.BackgroundImage")));
+            this.buttonGüncelle.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.buttonGüncelle.Location = new System.Drawing.Point(395, 245);
+            this.buttonGüncelle.Name = "buttonGüncelle";
+            this.buttonGüncelle.Size = new System.Drawing.Size(170, 34);
+            this.buttonGüncelle.TabIndex = 23;
+            this.buttonGüncelle.Text = "GÜNCELLE";
+            this.buttonGüncelle.UseVisualStyleBackColor = true;
+            this.buttonGüncelle.Click += new System.EventHandler(this.buttonGüncelle_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Location = new System.Drawing.Point(341, 26);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(319, 191);
+            this.panel1.TabIndex = 22;
+            // 
+            // buttonEkle
+            // 
+            this.buttonEkle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonEkle.BackgroundImage")));
+            this.buttonEkle.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.buttonEkle.Location = new System.Drawing.Point(173, 245);
+            this.buttonEkle.Name = "buttonEkle";
+            this.buttonEkle.Size = new System.Drawing.Size(170, 34);
+            this.buttonEkle.TabIndex = 21;
+            this.buttonEkle.Text = "EKLE";
+            this.buttonEkle.UseVisualStyleBackColor = true;
+            this.buttonEkle.Click += new System.EventHandler(this.buttonEkle_Click);
+            // 
+            // comboBoxAracTürü
+            // 
+            this.comboBoxAracTürü.FormattingEnabled = true;
+            this.comboBoxAracTürü.Items.AddRange(new object[] {
+            "Car",
+            "Truck",
+            "Boat",
+            "Airplane"});
+            this.comboBoxAracTürü.Location = new System.Drawing.Point(94, 26);
+            this.comboBoxAracTürü.Name = "comboBoxAracTürü";
+            this.comboBoxAracTürü.Size = new System.Drawing.Size(183, 24);
+            this.comboBoxAracTürü.TabIndex = 19;
+            this.comboBoxAracTürü.SelectedIndexChanged += new System.EventHandler(this.comboBoxAracTürü_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label7.ForeColor = System.Drawing.Color.Blue;
+            this.label7.Location = new System.Drawing.Point(26, 29);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 16);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Arac Türü";
+            // 
+            // textBoxYakit
+            // 
+            this.textBoxYakit.Location = new System.Drawing.Point(89, 191);
+            this.textBoxYakit.Multiline = true;
+            this.textBoxYakit.Name = "textBoxYakit";
+            this.textBoxYakit.Size = new System.Drawing.Size(188, 29);
+            this.textBoxYakit.TabIndex = 15;
+            // 
+            // textBoxYil
+            // 
+            this.textBoxYil.Location = new System.Drawing.Point(89, 148);
+            this.textBoxYil.Multiline = true;
+            this.textBoxYil.Name = "textBoxYil";
+            this.textBoxYil.Size = new System.Drawing.Size(188, 29);
+            this.textBoxYil.TabIndex = 14;
+            // 
+            // textBoxModel
+            // 
+            this.textBoxModel.Location = new System.Drawing.Point(89, 102);
+            this.textBoxModel.Multiline = true;
+            this.textBoxModel.Name = "textBoxModel";
+            this.textBoxModel.Size = new System.Drawing.Size(188, 29);
+            this.textBoxModel.TabIndex = 13;
+            // 
+            // textBoxMarka
+            // 
+            this.textBoxMarka.Location = new System.Drawing.Point(89, 61);
+            this.textBoxMarka.Multiline = true;
+            this.textBoxMarka.Name = "textBoxMarka";
+            this.textBoxMarka.Size = new System.Drawing.Size(188, 29);
+            this.textBoxMarka.TabIndex = 12;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(26, 204);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 16);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Yakıt";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.Location = new System.Drawing.Point(26, 161);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(22, 16);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Yıl";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.ForeColor = System.Drawing.Color.Blue;
+            this.label2.Location = new System.Drawing.Point(26, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Model";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.ForeColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(26, 74);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Marka";
+            // 
+            // Kulanici
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1030, 619);
+            this.Controls.Add(this.comboBoxAracFiltreleme);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Kulanici";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Kulanici";
+            this.Load += new System.EventHandler(this.Kulanici_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ComboBox comboBoxAracFiltreleme;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button buttonEkle;
+        private System.Windows.Forms.ComboBox comboBoxAracTürü;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBoxYakit;
+        private System.Windows.Forms.TextBox textBoxYil;
+        private System.Windows.Forms.TextBox textBoxModel;
+        private System.Windows.Forms.TextBox textBoxMarka;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonGüncelle;
+    }
+}
