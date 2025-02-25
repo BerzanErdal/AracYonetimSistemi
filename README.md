@@ -14,8 +14,9 @@ Daha iyi bir kullanıcı deneyimi için TreeView yapısı ile şık bir arayüz 
 
 
 ✅ Kullanıcı Yetkileri:  
-- Araçları listeleyebilir ve filtreleyebilir
-- Araç ekleyebilir, güncelleyebilir.
+- Araçları listeleyebilir ve filtreleyebilir.
+- Araç ekleyeme işlemi için aracın türünü seçtikten sonra ekleme işlemini yapabilir.
+- Güncelleme işlemi için treview dan aracı tıklayarak seçip ve türünü girdikten sonra istediği herhangi bir özeliğini güncelleyebilir.
 
   
 ✅ Admin Yetkileri:  
@@ -32,6 +33,9 @@ Daha iyi bir kullanıcı deneyimi için TreeView yapısı ile şık bir arayüz 
 
 📷 Ekran Görüntüleri 
 
-![image](https://github.com/user-attachments/assets/875bb31f-f604-4635-b096-088839dd5688)      ![image](https://github.com/user-attachments/assets/23b1a2ff-ffb5-4ab1-819e-ab183bbd3ce5)    ![image](https://github.com/user-attachments/assets/731d6684-0369-4f69-ba87-3863e04cecfa)
+![image](https://github.com/user-attachments/assets/875bb31f-f604-4635-b096-088839dd5688)      ![image](https://github.com/user-attachments/assets/23b1a2ff-ffb5-4ab1-819e-ab183bbd3ce5)    ![image](https://github.com/user-attachments/assets/731d6684-0369-4f69-ba87-3863e04cecfa)     ![image](https://github.com/user-attachments/assets/bb83f402-361a-40ab-8bfb-b7f4b0fb95b4)      ![image](https://github.com/user-attachments/assets/7b0a3c01-b3be-4a81-8be9-962bb5e1683d)    ![image](https://github.com/user-attachments/assets/d987982b-d5e0-4912-a5a8-ee3c4010f8f8)     
+
+
+
 
 
