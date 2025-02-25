@@ -32,4 +32,5 @@ Daha iyi bir kullanıcı deneyimi için TreeView yapısı ile şık bir arayüz 
 
 📷 Ekran Görüntüleri 
 
-![image](https://github.com/user-attachments/assets/875bb31f-f604-4635-b096-088839dd5688)
+![image](https://github.com/user-attachments/assets/875bb31f-f604-4635-b096-088839dd5688)      ![image](https://github.com/user-attachments/assets/23b1a2ff-ffb5-4ab1-819e-ab183bbd3ce5)
+
